@@ -38,7 +38,26 @@ export default class MyScene extends Component {
 注意组件声明前面的`export default`关键字。它的意思是**导出(export)**当前组件，以允许其他组件**引入(import)**和使用当前组件，就像下面这样（下面的代码你可以写在index.ios.js或是index.android.js中）：
 
 ```javascript
-import React, { Component } from 'react';
+import 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t, { Component } from 'react';
 import { AppRegistry } from 'react-native';
 
 // ./MyScene表示的是当前目录下的MyScene.js文件，也就是我们刚刚创建的文件
@@ -58,7 +77,7 @@ class YoDawgApp extends Component {
 AppRegistry.registerComponent('YoDawgApp', () => YoDawgApp);
 ```
 
-我们现在已经创建了只有单个场景的App。其中的`MyScene`同时也是一个[可复用的Reac组件](https://facebook.github.io/react/docs/reusable-components.html)的例子。
+我们现在已经创建了只有单个场景的App。其中的`MyScene`同时也是一个[可复用的React组件](https://facebook.github.io/react/docs/reusable-components.html)的例子。
 
 ### 使用Navigator
 
